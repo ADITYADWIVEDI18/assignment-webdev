@@ -4,6 +4,13 @@ $(document).ready(function() {
         var imgSrc = $(this).data('img');
         $('#project-img').attr('src', imgSrc);
     }); 
+$(document).ready(function() {
+    // Handle image change on hover for our-project-right-box
+    $('.our-project-right-box').hover(function() {
+        var imgSrc = $(this).data('img');
+        $('#project-img').attr('src', imgSrc);
+    }); 
+    
     
     // Expert Growth section: animated number counting
     $('.expert-growth-box-number').each(function() {
