@@ -5,6 +5,7 @@ $(document).ready(function() {
         $('#project-img').attr('src', imgSrc);
     });
 
+
     // Expert Growth section: animated number counting
     $('.expert-growth-box-number').each(function() {
         var $this = $(this);
